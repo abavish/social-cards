@@ -3,3 +3,26 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+socialCard{
+	margin: 10px;
+}
+
+.user-details{
+	display: flex;
+	font-size: 14px;
+	line-height: 20px;
+}
+.user-content{
+	margin: 10px 0 0 10px;
+}
+.dp{
+	height: 60px;
+	border-radius: 45px;
+}
+
+.user-post{
+	margin: 0 0 0 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
