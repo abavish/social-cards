@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ProfilePic from './ProfilePic';
 
 class App extends Component {
   constructor(props){
