@@ -26,3 +26,21 @@ socialCard{
 	font-size: 14px;
 	line-height: 20px;
 }
+
+.action-bar{
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.comment, .mail{
+	color: #667785;
+}
+
+.retweet{
+	color: #27BE67;
+}
+
+.heart{
+	color: #DE2960;
+}
