@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
 import ProfilePic from './ProfilePic';
+import Seed from './seed.js'
 
 class App extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-      userDetails: [
-      {
-        userName: 'ViSHaL NanD',
-        userAccount: 'abavish',
-        postDate: 'Sept 13',
-      },
-      {
-        userName: 'Abby NanD',
-        userAccount: 'djabhi',
-        postDate: 'Sept 18',
-      }
-      ]
+      userDetails: []
     }
   }	
+  componentDidMount(){
+    console.log("componentDidMount event")
+    this.setState({
+      userDetails: Seed.usersInfo,
+    })
+    console.log(Seed.usersInfo)
+  }
 	  render() {
 	    return (
 	      <div>
