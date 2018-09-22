@@ -15,7 +15,7 @@ window.Seed = (function () {
 		id: 1,
         userName: 'ViSHaL NanD',
         userAccount: 'abavish',
-        profilePicUrl: './dp/my_pic.jpg',
+        profilePicUrl: 'dp/my_pic.jpg',
         postDate: 'Sept 13',
         retweetCount: generateRetweetCount(),
         likesCount: generateLikesCount(),
@@ -24,7 +24,7 @@ window.Seed = (function () {
       {
       	id: 2,
         userName: 'Abby NanD',
-        profilePicUrl: './dp/abhi_bhaiyya.JPG',
+        profilePicUrl: 'dp/abhi_bhaiyya.JPG',
         userAccount: 'djabhi',
         postDate: 'Sept 18',
         retweetCount: generateRetweetCount(),
