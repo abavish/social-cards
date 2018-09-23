@@ -17,6 +17,7 @@ socialCard{
 	margin: 10px 0 0 10px;
 }
 .dp{
+	width: 60px;
 	height: 60px;
 	border-radius: 45px;
 }

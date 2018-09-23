@@ -20,6 +20,7 @@ window.Seed = (function () {
         retweetCount: generateRetweetCount(),
         likesCount: generateLikesCount(),
         commentCount: generateCommentCount(),
+        description: 'Learning React? Start Small.',
       },
       {
       	id: 2,
@@ -30,6 +31,7 @@ window.Seed = (function () {
         retweetCount: generateRetweetCount(),
         likesCount: generateLikesCount(),
         commentCount: generateCommentCount(),
+        description: 'Keep building on what you already learned. Single block at a time.',
       }
 	]
 	return {usersInfo}
